@@ -10,3 +10,27 @@ header .line {
   background-color: #117050;
   height: 10px;
 }
+
+.container {
+  max-width: 1140px;
+  margin: auto;
+}
+
+.header--area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+.header--left img {
+  width: 64px;
+  height: 64px;
+}
+
+.header--search input {
+  font-size: 16px;
+  padding: 7px 10px;
+  border: 1px solid #999999;
+  outline: 0;
+}
