@@ -1,0 +1,12 @@
+/* Fontes personalizadas */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Oswald:wght@400;700&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+}
+
+header .line {
+  background-color: #117050;
+  height: 10px;
+}
