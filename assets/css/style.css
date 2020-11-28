@@ -96,3 +96,23 @@ header .line {
   border: 6px solid #117050;
   margin-right: 30px;
 }
+
+.area1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.area1--content {
+  background-color: pink;
+}
+
+.area1--img1 {
+  background-color: yellowgreen;
+  height: 100px;
+}
+
+.area1--img2 {
+  background-color: turquoise;
+  grid-column: 2 / 3;
+  grid-row: 1 / 3;
+}
