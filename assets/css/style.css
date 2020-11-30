@@ -285,3 +285,21 @@ header .line {
   background-image: url("../images/bg3.jpg");
   background-position: left;
 }
+
+/* Area5 */
+
+.area5 {
+  background-image: url("../images/bg4.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+}
+
+/* Footer */
+
+footer {
+  background-color: #333333;
+  color: #ffffff;
+  padding: 50px;
+  text-align: center;
+}
