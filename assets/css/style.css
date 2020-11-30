@@ -203,6 +203,8 @@ header .line {
   background-position: center;
 }
 
+/* Area3 */
+
 .area3 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -242,4 +244,44 @@ header .line {
   text-decoration: none;
   color: #000;
   letter-spacing: 1px;
+}
+
+/* Area4 */
+
+.area4 {
+  display: grid;
+  grid-template-columns: 450px 1fr;
+  background-color: #e8e9ee;
+}
+
+.area4--content {
+  padding: 150px 80px;
+}
+
+.area4--text {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  line-height: 25px;
+}
+
+.area4--content h2 {
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 45px;
+  margin-top: 15px;
+}
+
+.area4--content a {
+  background-color: transparent;
+  border: 2px solid #000;
+  padding: 10px 25px;
+  text-decoration: none;
+  color: #000;
+  letter-spacing: 1px;
+}
+
+.area4--img1 {
+  background-image: url("../images/bg3.jpg");
+  background-position: left;
 }
